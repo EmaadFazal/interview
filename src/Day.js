@@ -8,8 +8,8 @@ export default function Day({dayofWeek,temp,condition}) {
             <Card className={classes.root}>
             <h4>{dayofWeek}</h4>
             {condition == 'Clouds'?
-            <WiCloud size={24} color='#000' />:
-            <WiDaySunny size={24} color='#000' />
+            <WiCloud size={44} color='#808080' />:
+            <WiDaySunny size={44} color='#ffeb3b'  />
             }
             <h4>{temp}{'°'}C</h4>
             </Card>
